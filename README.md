@@ -1,29 +1,19 @@
-# Fibonacci–pointed composite computations
+# Exact checks for tensor-category composites
 
-Computational companion to **Huixuan He and Zhengwei Liu, _Finite Composites of the Fibonacci Category with Pointed Fusion Categories_**, [arXiv:2610.41891](https://arxiv.org/abs/2610.41891).
-
-This repository provides three Wolfram Language scripts for the paper's exact matrix, arithmetic and scalar checks, together with expected output and a runner that checks both the output and file hashes.
-
-## Obtain the code
-
-- **arXiv:** open [the paper](https://arxiv.org/abs/2610.41891) and choose **TeX Source**, or [download the source archive directly](https://arxiv.org/src/2610.41891). The computational files are in `anc/`.
-- **GitHub:** clone this repository as below, or choose **Code → Download ZIP**. The computational files are in `ancillary/`.
-
-The three scripts, expected output and shell runner are byte-for-byte identical to the arXiv source retrieved on 2026-11-12. The ancillary README clarifies the run instructions and current appendix numbering; its checksum list is updated accordingly. [PROVENANCE.json](PROVENANCE.json) records the correspondence and hashes.
+Anonymous computational supplement for the manuscript under review. This package contains three Wolfram Language scripts, expected output and a runner for the exact matrix, arithmetic and scalar checks described in the manuscript.
 
 ## Run all checks
 
-Requirements: an activated **Wolfram Language** installation providing `WolframKernel`, a POSIX shell, `diff`, and either `sha256sum` or `shasum`. The scripts were tested with Wolfram Language **14.3.0 on macOS ARM64**. No additional Wolfram packages are needed. Wolfram software is not included in this repository.
+Requirements: an activated **Wolfram Language** installation providing `WolframKernel`, a POSIX shell, `diff`, and either `sha256sum` or `shasum`. Tested with Wolfram Language **14.3.0 on macOS ARM64**; no additional Wolfram packages are required.
+
+Download and extract the anonymous repository archive. From its top-level directory, run:
 
 ```sh
-git clone https://github.com/hhxhhxhh/fib-pointed-computations.git
-cd fib-pointed-computations
 WOLFRAM_KERNEL=/path/to/WolframKernel sh ancillary/run_checks.sh
 ```
 
-If `WolframKernel` is already on `PATH`, use `sh ancillary/run_checks.sh`. To run the arXiv copy instead, use `sh anc/run_checks.sh` from the extracted source directory, with the same `WOLFRAM_KERNEL` setting when needed.
-
-The runner invokes the three scripts in a fixed order, compares their entire combined output with `EXPECTED_OUTPUT.txt`, and verifies `SHA256SUMS`. It exits with a nonzero status on failure. Success ends with:
+If `WolframKernel` is already on `PATH`, use `sh ancillary/run_checks.sh`.
+The runner compares the entire combined output with `EXPECTED_OUTPUT.txt` and checks `ancillary/SHA256SUMS`. It exits with a nonzero status on failure. Success ends with:
 
 ```text
 All exact checks and ancillary hashes passed.
@@ -41,8 +31,6 @@ All exact checks and ancillary hashes passed.
 
 The scripts check the displayed algebraic identities and finite cases. They do not verify planar reductions, train independence, tadpole vanishing, categorical descent, or the general classification proof. The finite totient search does not establish an unbounded exclusion. Those arguments remain in the paper. Historical “Section 5” comments in the scalar script refer to material now in Appendix A. These computations are not a proof-assistant formalization.
 
-## Verification and citation
+## Verification and integrity
 
-[verification/2026-11-12/](verification/2026-11-12/) contains a fresh run of this repository's runner and its environment record. [MANIFEST_SHA256.json](MANIFEST_SHA256.json) binds all published files other than itself and Git metadata.
-
-Please cite the paper for the mathematical results and include a repository commit URL when identifying the version of the code used.
+The `verification/2026-11-12/` directory contains the verification output and environment record. `PROVENANCE.json` records the immutable computational inputs without identifying their authors. `MANIFEST_SHA256.json` contains hashes for all files in this snapshot except itself. Documentation has been anonymized and its hashes recomputed; the three scripts, expected output and shell runner are unchanged.

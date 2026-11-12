@@ -1,58 +1,10 @@
 {
-  "paper": {
-    "authors": [
-      "Huixuan He",
-      "Zhengwei Liu"
-    ],
-    "title": "Finite Composites of the Fibonacci Category with Pointed Fusion Categories",
-    "arxiv": "https://arxiv.org/abs/2610.41891"
-  },
-  "arxiv_source_url": "https://arxiv.org/src/2610.41891",
-  "retrieved_date": "2026-11-12",
-  "arxiv_archive_sha256": "38694a0479896799a7d306f64a7a304f8573d93cd2c1d8af32fae1b8c12f4e64",
-  "notes": "The three WL scripts, expected output and runner match the retrieved arXiv archive. Ancillary README and checksum list include journal-package documentation updates; no mathematical code changes.",
-  "files": {
-    "ancillary/EXPECTED_OUTPUT.txt": {
-      "sha256": "c68ca4f177501dd7e4797a718a0b19d2178cc4c23608ada1b5cabe4efcb9ecc1",
-      "arxiv_path": "anc/EXPECTED_OUTPUT.txt",
-      "arxiv_sha256": "c68ca4f177501dd7e4797a718a0b19d2178cc4c23608ada1b5cabe4efcb9ecc1",
-      "identical_to_arxiv": true
-    },
-    "ancillary/README.txt": {
-      "sha256": "afa030ef5652af8d7b3b21dfbf61ef000afafb43d51b4a2fd5d9430a735ebf6e",
-      "arxiv_path": "anc/README.txt",
-      "arxiv_sha256": "977cc7b8f5ead4faa0874471ffc9736641c2043f6fa2351c51c949c5ad9423ab",
-      "identical_to_arxiv": false
-    },
-    "ancillary/SHA256SUMS": {
-      "sha256": "65926c3f61ed3c6fcf6a116314a5eab190d123d3cd8da0a9bd5205a57a0ecd62",
-      "arxiv_path": "anc/SHA256SUMS",
-      "arxiv_sha256": "471fbf76825dca6757c4aaee5906de79a7ed9c4989bbfb8a9b5419c5a03d08c9",
-      "identical_to_arxiv": false
-    },
-    "ancillary/run_checks.sh": {
-      "sha256": "3a750ac651cfcc5aa6619a6ea9dde079de6f335cc4f45b1122dbab84771cbbf9",
-      "arxiv_path": "anc/run_checks.sh",
-      "arxiv_sha256": "3a750ac651cfcc5aa6619a6ea9dde079de6f335cc4f45b1122dbab84771cbbf9",
-      "identical_to_arxiv": true
-    },
-    "ancillary/verify_explicit_two_dimensional_modules.wl": {
-      "sha256": "c050e8bf6dc5822c4983a2dbf6dfab32fa0595645ee9de11217d65972848b15a",
-      "arxiv_path": "anc/verify_explicit_two_dimensional_modules.wl",
-      "arxiv_sha256": "c050e8bf6dc5822c4983a2dbf6dfab32fa0595645ee9de11217d65972848b15a",
-      "identical_to_arxiv": true
-    },
-    "ancillary/verify_jellyfish_coefficients.wl": {
-      "sha256": "dd4ce61f20cd62239d300ef7210cfb502c0de449eaa2c01d1d706f976cc1b8ae",
-      "arxiv_path": "anc/verify_jellyfish_coefficients.wl",
-      "arxiv_sha256": "dd4ce61f20cd62239d300ef7210cfb502c0de449eaa2c01d1d706f976cc1b8ae",
-      "identical_to_arxiv": true
-    },
-    "ancillary/verify_two_fib_arithmetic.wl": {
-      "sha256": "b9253c209fbad8f1f835dfc770062f8c0179964e0d94033c1503e5886679dd21",
-      "arxiv_path": "anc/verify_two_fib_arithmetic.wl",
-      "arxiv_sha256": "b9253c209fbad8f1f835dfc770062f8c0179964e0d94033c1503e5886679dd21",
-      "identical_to_arxiv": true
-    }
+  "description": "Anonymous computational supplement. Documentation was anonymized; the three scripts, expected output and runner retain the exact computational input bytes.",
+  "computational_input_sha256": {
+    "ancillary/EXPECTED_OUTPUT.txt": "c68ca4f177501dd7e4797a718a0b19d2178cc4c23608ada1b5cabe4efcb9ecc1",
+    "ancillary/run_checks.sh": "3a750ac651cfcc5aa6619a6ea9dde079de6f335cc4f45b1122dbab84771cbbf9",
+    "ancillary/verify_explicit_two_dimensional_modules.wl": "c050e8bf6dc5822c4983a2dbf6dfab32fa0595645ee9de11217d65972848b15a",
+    "ancillary/verify_two_fib_arithmetic.wl": "b9253c209fbad8f1f835dfc770062f8c0179964e0d94033c1503e5886679dd21",
+    "ancillary/verify_jellyfish_coefficients.wl": "dd4ce61f20cd62239d300ef7210cfb502c0de449eaa2c01d1d706f976cc1b8ae"
   }
 }

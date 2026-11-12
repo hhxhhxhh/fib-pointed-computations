@@ -1,14 +1,14 @@
 {
   ".gitignore": "cf237c7aff44efbe6e502e645c3e06da03a69d7bdeb43392108ef3348143417e",
-  "PROVENANCE.json": "d2912126167259058e8216bc59cb152cf23bbe55410dcea95dea1e349ded391e",
-  "README.md": "b68514009203f72f0544c117bb9705342281383b0f7e1cb95bceebbd3406f9c5",
+  "PROVENANCE.json": "f55d3fc2af3eee89bb196a270b2f5e12dc1c429b1f34b5a99a1a0d9e31bb4e6e",
+  "README.md": "a36106e6ecfb0f28c5cc5abfda49a93a27a6c72b053220e7ac7681a692e51e1b",
   "ancillary/EXPECTED_OUTPUT.txt": "c68ca4f177501dd7e4797a718a0b19d2178cc4c23608ada1b5cabe4efcb9ecc1",
-  "ancillary/README.txt": "afa030ef5652af8d7b3b21dfbf61ef000afafb43d51b4a2fd5d9430a735ebf6e",
-  "ancillary/SHA256SUMS": "65926c3f61ed3c6fcf6a116314a5eab190d123d3cd8da0a9bd5205a57a0ecd62",
+  "ancillary/README.txt": "1df41c21aa61d7f8a804c25ed80a682a6a10b1ec722c7adf998d9da01427527c",
+  "ancillary/SHA256SUMS": "694701e0d8913dd2fa3de68a4f9bdaa1904cccc752a936c2b5cd8844755f5ff4",
   "ancillary/run_checks.sh": "3a750ac651cfcc5aa6619a6ea9dde079de6f335cc4f45b1122dbab84771cbbf9",
   "ancillary/verify_explicit_two_dimensional_modules.wl": "c050e8bf6dc5822c4983a2dbf6dfab32fa0595645ee9de11217d65972848b15a",
   "ancillary/verify_jellyfish_coefficients.wl": "dd4ce61f20cd62239d300ef7210cfb502c0de449eaa2c01d1d706f976cc1b8ae",
   "ancillary/verify_two_fib_arithmetic.wl": "b9253c209fbad8f1f835dfc770062f8c0179964e0d94033c1503e5886679dd21",
-  "verification/2026-11-12/environment.json": "f4026d12c3d6c9895d300b5cc41dc3d4776c9d1ff7e8f31a678e2d2542d5499b",
+  "verification/2026-11-12/environment.json": "ec9f2317870cdd11bfdde950dfe045d6bb257a25383af4c01e74b969314b1648",
   "verification/2026-11-12/run_checks.txt": "798a7963b68f65492e6237de59e26e52e9691fdf52d922e246bc49ec235e4e84"
 }

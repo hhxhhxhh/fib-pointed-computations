@@ -5,7 +5,7 @@
   "architecture": "arm64",
   "command": "WOLFRAM_KERNEL=/path/to/WolframKernel sh ancillary/run_checks.sh",
   "exit_code": 0,
-  "elapsed_seconds": 2.69,
+  "elapsed_seconds": 2.92,
   "expected_output_comparison": "PASS",
   "ancillary_checksums": "PASS"
 }

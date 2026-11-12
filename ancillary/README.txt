@@ -1,4 +1,4 @@
-Exact algebraic checks for Finite Composites of the Fibonacci Category with Pointed Fusion Categories
+Exact algebraic checks for the manuscript under review
 
 The three Wolfram Language scripts and EXPECTED_OUTPUT.txt are copied without
 changes from the manuscript's reproducibility materials. The scripts were
