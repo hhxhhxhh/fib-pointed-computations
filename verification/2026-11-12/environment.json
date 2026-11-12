@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-12",
+  "wolfram_version": "14.3.0 for Mac OS X ARM (64-bit) (July 8, 2025)",
+  "platform": "Darwin",
+  "architecture": "arm64",
+  "command": "WOLFRAM_KERNEL=/path/to/WolframKernel sh ancillary/run_checks.sh",
+  "exit_code": 0,
+  "elapsed_seconds": 2.69,
+  "expected_output_comparison": "PASS",
+  "ancillary_checksums": "PASS"
+}
